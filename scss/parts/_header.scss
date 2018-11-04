@@ -2,7 +2,7 @@
   position: relative;
   padding: 266px 0 117px;
   font-family: $font-josephin;
-  background: url('../../img/header-bg.jpg') no-repeat;
+  background: url('#{$path}img/header.jpg');
   background-size: cover;
   color: $color-white;
 

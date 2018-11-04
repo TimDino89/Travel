@@ -18,7 +18,7 @@
         width: 360px;
         height: 80px;
         z-index: 0;
-        background-image: url('../../img/Angles.png');
+        background-image: url('#{$path}img/Angles.png');
       }
 
       &::before {

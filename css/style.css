@@ -496,7 +496,7 @@ th {
   position: relative;
   padding: 266px 0 117px;
   font-family: "Josefin Sans", sans-serif;
-  background: url("../../img/header-bg.jpg") no-repeat;
+  background: url("../img/header.jpg");
   background-size: cover;
   color: #fff;
 }
@@ -649,7 +649,7 @@ th {
 
 .whyus {
   padding: 120px 0 132px;
-  background-image: url("../../img/whyUs.jpg");
+  background-image: url("../img/whyUs.jpg");
 }
 
 .whyus__title {
@@ -701,11 +701,11 @@ th {
 }
 
 .booking__article--house {
-  background-image: url("../../img/house.jpg");
+  background-image: url("../img/house.jpg");
 }
 
 .booking__article--ocean {
-  background-image: url("../../img/ocean.jpg");
+  background-image: url("../img/ocean.jpg");
 }
 
 .booking__wrapper {
@@ -742,7 +742,7 @@ th {
 
 .tourist {
   padding: 73px 0 200px;
-  background: url("../../img/tourist.jpg");
+  background-image: url("../img/tourist.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -813,7 +813,7 @@ th {
   width: 360px;
   height: 80px;
   z-index: 0;
-  background-image: url("../../img/Angles.png");
+  background-image: url("../img/Angles.png");
 }
 
 .works__item--arrows::before {

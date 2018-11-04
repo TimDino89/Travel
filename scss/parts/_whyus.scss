@@ -2,7 +2,7 @@
 
 .whyus {
   padding: 120px 0 132px;
-  background-image: url('../../img/whyUs.jpg');
+  background-image: url('#{$path}img/whyUs.jpg');
 
   &__title {
     margin: 83px 0 65px;
