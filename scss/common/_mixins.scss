@@ -1,0 +1,17 @@
+// Mixins
+
+@mixin section-title {
+  display: block;
+  font-family: $font-aleo;
+  font-size: 36px;
+  color: $color-white;
+}
+
+@mixin background-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@mixin button-hover ($color) {
+  background: darken($color, 10%);
+}

@@ -1,0 +1,39 @@
+.nav {
+  padding: 27px 0;
+  background: $color-blue;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 20%;
+  }
+
+  &__list {
+    margin: 0;
+    list-style: none;
+  }
+
+  &__item {
+    display: inline-block;
+    margin: 0 20px;
+
+    &--nomargin {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: $color-white;
+
+    &:hover {
+      border-bottom: 1px solid $color-white;
+    }
+  }
+}

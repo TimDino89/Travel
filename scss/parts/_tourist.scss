@@ -1,0 +1,52 @@
+// Tourist
+
+.tourist {
+  padding: 73px 0 200px;
+  background: url('#{$path}img/tourist.jpg');
+  @include background-cover;
+
+  &__wrapper {
+    display: flex;
+    margin-left: 5px;
+  }
+
+  &__title {
+    margin-bottom: 92px;
+    text-align: center;
+    @include section-title;
+  }
+
+  img {
+    display: block;
+  }
+
+  &__content {
+    
+    padding: 50px 60px 43px;
+    background: $color-dark-gray;
+  }
+
+  &__subtitle {
+    margin: 0 0 41px;
+    font-family: $font-josephin;
+    font-size: 20px;
+    font-weight: 300;
+    color: $color-white;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    margin: 0;
+    font-size: 14px;
+    color: $color-white;
+    line-height: 26px;
+  }
+
+  &__icon {
+    position: relative;
+    top: -13px;
+    padding-right: 8px;
+    font-size: 19px;
+    color: $color-blue;
+  }
+}

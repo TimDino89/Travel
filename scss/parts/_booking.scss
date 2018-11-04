@@ -1,0 +1,49 @@
+// Booking
+
+.booking {
+
+  &__article {
+    padding: 230px 0 100px 0;
+    @include background-cover;
+
+    &--house {
+      background-image: url('#{$path}img/house.jpg');
+    }
+
+    &--ocean {
+      background-image: url('#{$path}img/ocean.jpg');
+    }
+  }
+
+  &__wrapper {
+    padding: 46px 30px;
+    font-size: 20px;
+    color: $color-white;
+    background: $color-black-opacity;
+  }
+
+  &__subtitle {
+    display: block;
+    margin-bottom: 26px;
+    font-weight: 300;
+  }
+
+  &__title {
+    margin-bottom: 24px;
+    font-size: 19px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    font-family: $font-josephin;
+    margin-bottom: 42px;
+    line-height: 26px;
+    font-size: 16px;
+  }
+
+  &__btn {
+    padding: 20px 63px !important;
+    margin-bottom: 5px;
+  }
+}

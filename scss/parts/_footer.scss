@@ -1,0 +1,42 @@
+// Footer
+
+.footer {
+  text-align: center;
+  padding: 116px 0 50px;
+  background: $color-dark-gray;
+
+  &__subtitle {
+    margin: 9px 0 30px;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: $color-white;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+    width: 175px;
+    list-style: none;
+  }
+
+  &__item {
+    display: inline-block;
+  }
+
+  &__link {
+    display: block;
+    color: $color-white;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-blue;
+    }
+
+    &--isactive {
+      color: $color-blue;
+    }
+  }
+}

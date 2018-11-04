@@ -1,0 +1,87 @@
+.header {
+  position: relative;
+  padding: 266px 0 117px;
+  font-family: $font-josephin;
+  background: url('../../img/header-bg.jpg') no-repeat;
+  background-size: cover;
+  color: $color-white;
+
+  &__text {
+    text-align: center;
+    margin-bottom: 49px;
+  }
+
+  &__title {
+    margin: 0 0 5px;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: $color-white;
+  }
+
+  &__subtitle {
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 6px;
+  }
+
+  &__form {
+    display: flex;
+    width: 650px;
+    margin: 0 auto;
+    border: 2px solid $color-white;
+    background: $color-white;
+  }
+
+  &__search {
+    flex-grow: 1;
+    width: 80%;
+    padding: 20px 120px;
+    border: none;
+    background: none;
+    color: $color-gray;
+  }
+
+  input[type="text"]::placeholder {
+      color: $color-gray;
+      font-size: 14px;
+      letter-spacing: 3px;
+  }
+
+  &__btn {
+    position: relative;
+    padding: 0 50px 0 27px !important;
+    background: $color-blue;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    font-size: 27px;
+  }
+
+  &__scroll {
+    text-align: center;
+    margin: 118px auto 0;
+    width: 110px;
+
+    span {
+      font-size: 14px;
+      letter-spacing: 3px;
+    }
+  }
+
+  &__link {
+    display: block;
+    text-decoration: none;
+    color: $color-white;
+  }
+
+  &__angle {
+    font-size: 40px;
+    line-height: 30px;
+  }
+}
+

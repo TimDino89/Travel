@@ -1,0 +1,19 @@
+@import 'common/normalize';
+@import 'common/variables';
+@import 'common/fonts';
+@import 'common/mixins';
+@import 'common/main';
+@import 'common/layout';
+
+// Parts
+@import 'parts/header';
+@import 'parts/nav';
+@import 'parts/whyus';
+@import 'parts/booking';
+@import 'parts/tourist';
+@import 'parts/works';
+@import 'parts/footer';
+
+// Elements
+@import 'elements/btn';
+@import 'elements/logo';
