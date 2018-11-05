@@ -2,7 +2,7 @@
 
 .tourist {
   padding: 73px 0 200px;
-  background-image: url('#{$path}img/tourist.jpg');
+  background: url('#{$path}img/tourist.jpg');
   @include background-cover;
 
   &__wrapper {
